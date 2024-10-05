@@ -1,0 +1,19 @@
+GET http://localhost:3000/todos/
+
+
+###
+PUT  http://localhost:3000/todos/6
+Content-Type: application/json
+{
+  "dueDate": "2021-01-12"
+}
+
+
+### 
+GET http://localhost:3000/agenda/?date=2021-12-12
+
+
+
+
+###
+DELETE http://localhost:3000/todos/6
